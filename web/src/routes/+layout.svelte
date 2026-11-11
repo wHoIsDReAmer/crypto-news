@@ -117,8 +117,6 @@
 				{/if}
 			</span>
 			{#if !app.streamConnected}<span class="hot">실시간 연결 끊김</span>{/if}
-			<span>Claude {st.claude_enabled ? '켜짐' : '꺼짐'}</span>
-			<span>텔레그램 {st.telegram_enabled ? '켜짐' : '꺼짐'}</span>
 		{/if}
 	</footer>
 </div>
